@@ -40,3 +40,10 @@ A small Python script is included in this repository to handle this communicatio
 4. Ensure the server is listening on `http://127.0.0.1:5000` (port 5000) before you start a combat in the game.
 
 *Note: You can modify this Python script to connect your own AI models, logic, or scripts to the game!*
+
+## 📦 Included Ready-to-Use Mod
+
+You don't need to compile the code yourself if you just want to play! The pre-compiled, ready-to-use mod is already included in the files. 
+
+* Look for the folder named `Communication_Mod`. This is the actual mod folder that you need to copy into your Slay the Spire 2 `mods` directory.
+* *(Note: The main project folder containing the source code is named `Communication_Mod_eng` to distinguish it from the playable mod).*
