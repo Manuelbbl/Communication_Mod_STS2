@@ -1,0 +1,11 @@
+{
+  "id": "Communication_Mod",
+  "name": "Communication_Mod",
+  "author": "DrB",
+  "description": "A powerful API mod that exports the complete live game state of Slay the Spire 2 to a local server for AI training and bot development.",
+  "version": "v0.0.1",
+  "has_pck": false,
+  "has_dll": true,
+  "dependencies": ["BaseLib"],
+  "affects_gameplay": true
+}
