@@ -26,3 +26,17 @@ To use this mod, you must have the following installed:
 3. Place the compiled mod folder into your Slay the Spire 2 `mods` directory.
 4. Launch the game and ensure both BaseLib and this mod are enabled.
 5. Make sure your local Python/AI server is running on port `5000` before entering combat.
+
+6. ## 🐍 Python Communication Server
+
+For the mod to function, an external local server must be running to receive the game data and send back the AI's commands. 
+
+A small Python script is included in this repository to handle this communication.
+
+**How to use it:**
+1. Make sure you have [Python](https://www.python.org/downloads/) installed.
+2. Open your terminal or command prompt in the folder containing the Python script.
+3. Run the server script python server.py
+4. Ensure the server is listening on `http://127.0.0.1:5000` (port 5000) before you start a combat in the game.
+
+*Note: You can modify this Python script to connect your own AI models, logic, or scripts to the game!*
