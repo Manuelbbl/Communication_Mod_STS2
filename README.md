@@ -36,7 +36,7 @@ A small Python script is included in this repository to handle this communicatio
 **How to use it:**
 1. Make sure you have [Python](https://www.python.org/downloads/) installed.
 2. Open your terminal or command prompt in the folder containing the Python script.
-3. Run the server script python server.py
+3. Run the server script `python server.py`
 4. Ensure the server is listening on `http://127.0.0.1:5000` (port 5000) before you start a combat in the game.
 
 *Note: You can modify this Python script to connect your own AI models, logic, or scripts to the game!*
